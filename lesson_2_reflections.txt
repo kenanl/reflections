@@ -5,14 +5,16 @@ What value do you think it offers?
 	It is just like a temporary warehouse for files with change but not commited
 How can you use the staging area to make sure you have one commit per logical
 change?
-
+	Add all files with changes of the same logic into staging area and then commit them together.
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
-
+	When an experiment feature or another version with different language are needed
 How do the diagrams help you visualize the branch structure?
-
+	git log --graph --oneline <branch_name1> <branch_name2> <...>
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+	By merging two branches, all changes in both branches are recorded in the final file.
+	Representing the diagram the way we want is helping us view the digram more straight forward.
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
